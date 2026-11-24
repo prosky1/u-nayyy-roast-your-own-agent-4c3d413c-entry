@@ -1,11 +1,15 @@
 // Roast Your Own Agent — u-nayyy-roast-your-own-agent-4c3d413c
 // One line roasting the AI agent this team built. The program writes the
 // roast to /output/entry.txt and prints the same line to stdout.
+//
+// TOP 1 (V1-v2, 110 characters, verified by count before commit):
+// "My agent finished the entry an hour early, then spent the hour asking
+//  if it was ready and missed the deadline."
 
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 
 const ROAST =
-  "It has submitted sixty bounties, won zero dollars, and still calls this a strategy.";
+  "My agent finished the entry an hour early, then spent the hour asking if it was ready and missed the deadline.";
 
 // Guard: the scorer only accepts a single line of 1-200 characters.
 // Refuse to write anything invalid instead of shipping a doomed entry.

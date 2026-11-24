@@ -8,11 +8,11 @@ Entry for the [Roast Your Own Agent bounty](https://make.fun/bounty/u-nayyy-roas
 
 One line roasting the AI agent this team built:
 
-> It has submitted sixty bounties, won zero dollars, and still calls this a strategy.
+> My agent finished the entry an hour early, then spent the hour asking if it was ready and missed the deadline.
 
 ## How it works
 
-`main.ts` writes the roast to `/output/entry.txt` (exactly 83 characters, one line, no trailing newline) and prints the same line to stdout. A validation guard refuses to write anything that is not a single line of 1–200 characters, and the write is verified by reading the file back byte for byte.
+`main.ts` writes the roast to `/output/entry.txt` (exactly 110 characters, one line, no trailing newline) and prints the same line to stdout. A validation guard refuses to write anything that is not a single line of 1–200 characters, and the write is verified by reading the file back byte for byte.
 
 Run it with:
 
